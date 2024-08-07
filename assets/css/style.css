@@ -1,0 +1,354 @@
+html {
+    scroll-behavior: auto !important;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+
+/* Navbar */
+.navbar {
+    color: #FFFFFF !important;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.navbar a span {
+    font-weight: 300;
+}
+
+/* Hero Section */
+#hero-section {
+    background-image: url("../img/pc-fondo-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#hero-section div {
+    position: absolute;
+    bottom: 2.813rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-line {
+    width: 21.563rem;
+}
+
+#hero-section h1 {
+    font-size: 3rem;
+}
+
+#hero-section h1:first-child {
+    font-weight: 300;
+}
+
+#hero-section h1:last-child {
+    font-weight: 400;
+}
+
+/* Sobre mi */
+
+#sobre-mi {
+    color: #373A3C;
+    text-align: justify;
+}
+
+#about-img{
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+/* Skills */
+
+#skills {
+    background-color: #60d275;
+    color: #111010;
+}
+
+#skills div h2 {
+    font-size: 3.25rem;
+}
+
+#skills i {
+    color: #020b05;
+}
+
+#skills .titulo-skills h6 {
+    font-weight: 300;
+}
+
+.devicon{
+    font-size: 3rem;
+}
+
+.devicon:hover{
+    filter: saturate(200%);
+  }
+
+/* Mis últimos trabajos */
+#trabajos {
+    background-color: #478461;
+}
+
+#sobre-mi h2,
+#trabajos h2 {
+    font-size: 3.25rem;
+}
+
+/* Contacto */
+
+.contact-form{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+#contacto h2 {
+    font-size: 3.25rem;
+}
+
+#contacto h2,
+#contacto p {
+    color: #373A3C;
+}
+
+input{
+    margin: .5rem 0;
+}
+
+#submit-btn{
+    font-size: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.email-info{
+    list-style-type: none;
+    text-align: center;
+}
+
+.correo-list{
+    display: inline;
+}
+
+#map{
+    width: 400px;
+    height: 300px;
+}
+/* Footer */
+
+#footer {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 100vw;
+}
+
+#footer h6 {
+    font-weight: 300;
+    padding-top: .5rem;
+}
+
+#footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: .5rem;
+}
+
+/*Whatsapp*/
+.float {
+    position: fixed;
+    margin-bottom: .5rem;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+@media (max-width: 767.98px) {
+    .img-promo{
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #about-img{
+        display: none;
+    }
+
+    .devicon{
+        font-size: 5rem;
+    }
+    #map{
+        width: 300px;
+        height: 300px;
+    }
+    /* Footer */
+    #footer {
+        background-color: #112031;
+        width: 100vw;
+    }
+
+    #footer h6 {
+        font-weight: 300;
+    }
+
+    #footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    #about-img{
+        width: 400px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .devicon{
+        font-size: 5rem;
+    }
+    #map{
+        width: 300px;
+        height: 300px;
+    }
+    /* Footer */
+    #footer {
+        background-color: #112031;
+        width: 100vw;
+    }
+
+    #footer h6 {
+        font-weight: 300;
+    }
+
+    #footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 992px) {
+    #about-img{
+        width: 350px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .devicon{
+        font-size: 5rem;
+    }
+    #map{
+        width: 300px;
+        height: 300px;
+    }
+    /* Footer */
+    #footer {
+        background-color: #112031;
+        width: 100vw;
+    }
+
+    #footer h6 {
+        font-weight: 300;
+    }
+
+    #footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 820px) {
+    #about-img{
+        width: 300px;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .devicon{
+        font-size: 5rem;
+    }
+    #map{
+        width: 300px;
+        height: 300px;
+    }
+    /* Footer */
+    #footer {
+        background-color: #112031;
+        width: 100vw;
+    }
+
+    #footer h6 {
+        font-weight: 300;
+    }
+
+    #footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 280px) {
+    .img-promo{
+        width: 230px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .float{
+        display: none;
+    }
+
+    #skills div h2 {
+        font-size: 1.5rem;
+    }
+
+    #sobre-mi h2,
+    #trabajos h2 {
+        font-size: 1.5rem;
+    }
+    
+    /* Contacto */
+    
+    #contacto h2 {
+        font-size: 1.5rem;
+    }
+    .container-fluid {
+        text-align: center;
+    }
+   
+}
